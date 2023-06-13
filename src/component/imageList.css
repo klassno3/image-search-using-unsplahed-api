@@ -8,3 +8,71 @@ img {
   width: 100%;
 
 }
+:root{
+  --color-primary :#f2f3efee;
+  --color-secondary :rgb(243, 243, 243) ;
+*{
+  background-color:var(--color-primary);
+}
+.search-bar {
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 20px;
+  background-color:var(--color-secondary) ;
+  font-family: sans-serif;
+  box-shadow: 0 5px 30px  #0000002d;
+}
+.search-bar form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 35px;
+  background-color: var(--color-secondary);
+}
+.search-input {
+  display: flex;
+  gap: 15px;
+  background-color:var(--color-secondary);
+  flex-direction: column;
+  width: 80%;
+
+}
+.search-color {
+  display: flex;
+  gap: 15px;
+  background-color: var(--color-secondary);
+  flex-direction: column;
+  width: 20%;
+
+}
+label{
+  font-size: 20px;
+  background-color:var(--color-secondary);
+}
+input {
+  border: 2px solid gray;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+select{
+  border: 2px solid gray;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+
+}
+option {
+  font-size: 20px;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: transparent;
+
+}
+button:focus {
+  outline: none;
+}
+}

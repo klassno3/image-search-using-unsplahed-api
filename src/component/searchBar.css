@@ -2,6 +2,7 @@
   --color-primary :#f1ffc6ee;
   --color-secondary :rgb(190, 255, 170) ;
 }
+
 *{
   background-color:var(--color-primary);
 }

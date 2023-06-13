@@ -1,5 +1,5 @@
 :root{
-  --color-primary : #fff);
+  --color-primary : #fff;
   --color-secondary :rgb(243, 243, 243) ;
 *{
   background-color:var(--color-primary);
@@ -64,4 +64,5 @@ button {
 }
 button:focus {
   outline: none;
+}
 }

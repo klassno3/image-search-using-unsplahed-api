@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./imageList.css"
+import "./searchBar.css"
 const SearchBar = ( { onSubmit } ) => {
   const [term,setTerm] = useState("")
   const [color,setColour] = useState("")

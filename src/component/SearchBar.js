@@ -21,7 +21,8 @@ const SearchBar = ( { onSubmit } ) => {
  
   return (
     <div className="search-bar"
-      >
+    >
+      <h1>Search images and filter by color from unsplashed API</h1>
 
       <form onSubmit={ handleFormSubmit }  >
          <div className='search-color'  >
